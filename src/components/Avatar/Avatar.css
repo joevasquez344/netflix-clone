@@ -1,0 +1,69 @@
+.avatar {
+  display: none;
+}
+
+.avatar:hover .avatar-icon {
+  border: 6px solid #ebecec;
+}
+
+.avatar3 svg {
+  animation: bg-fade 10s ease infinite;
+}
+.avatar3 svg #smile {
+  width: 100px;
+}
+
+@keyframes bg-fade {
+  0% {
+    background: #86a546;
+  }
+  40% {
+    background: #86a546;
+  }
+  45% {
+    background: #e09927;
+  }
+  55% {
+    background: #e09927;
+  }
+  60% {
+    background: #86a546;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .avatar {
+    width: 150px;
+    margin-bottom: 30px;
+    display:inline-block
+  }
+
+  .avatar:hover .avatar-icon {
+    border: 6px solid #ebecec;
+  }
+
+  .avatar3 svg {
+    animation: bg-fade 10s ease infinite;
+  }
+  .avatar3 svg #smile {
+    width: 100px;
+  }
+
+  @keyframes bg-fade {
+    0% {
+      background: #86a546;
+    }
+    40% {
+      background: #86a546;
+    }
+    45% {
+      background: #e09927;
+    }
+    55% {
+      background: #e09927;
+    }
+    60% {
+      background: #86a546;
+    }
+  }
+}

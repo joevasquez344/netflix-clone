@@ -1,0 +1,47 @@
+.plans__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+.plans__info h5 {
+  font-size: .8rem;
+}
+.plans__info h6 {
+  font-size: .8rem;
+}
+.plans__item:hover {
+  opacity: 1;
+}
+.plans__item > button {
+  /* padding: .5rem 1rem; */
+  font-size: .8rem;
+  color: #fff;
+  background-color: #d50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .plans__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+  }
+  .plans__item:hover {
+    opacity: 1;
+  }
+  .plans__item > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
